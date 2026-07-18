@@ -77,14 +77,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Cuidarei" },
-      { name: "description", content: "Cuidarei" },
+      { title: "Cuidarei | Gestão de cuidados" },
+      {
+        name: "description",
+        content:
+          "Cuidarei ajuda equipes a organizar rotinas, pacientes e acompanhamento de cuidados.",
+      },
       { name: "author", content: "Cuidarei" },
-      { property: "og:title", content: "Cuidarei" },
-      { property: "og:description", content: "Cuidarei" },
+      { property: "og:title", content: "Cuidarei | Gestão de cuidados" },
+      {
+        property: "og:description",
+        content:
+          "Cuidarei ajuda equipes a organizar rotinas, pacientes e acompanhamento de cuidados.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Cuidarei" },
     ],
     links: [
       {
@@ -102,7 +109,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
         <HeadContent />
       </head>
