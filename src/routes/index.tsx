@@ -10,15 +10,16 @@ export const Route = createFileRoute("/")({
 // IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <main className="min-h-screen bg-background">
+      <section className="mx-auto flex min-h-screen w-full max-w-5xl flex-col justify-center px-6 py-16 md:px-10">
+        <p className="text-sm font-medium text-muted-foreground">Cuidarei</p>
+        <h1 className="mt-3 text-3xl font-semibold tracking-tight text-foreground md:text-5xl">
+          Gestão de cuidados em um só lugar
+        </h1>
+        <p className="mt-4 max-w-2xl text-base text-muted-foreground md:text-lg">
+          Estruture rotinas, acompanhe pacientes e mantenha sua operação de cuidado organizada.
+        </p>
+      </section>
+    </main>
   );
 }
