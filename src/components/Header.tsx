@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { useAuth } from "@/contexts/AuthContext";
+import { BrandLogo } from "@/components/BrandLogo";
 import {
   DropdownMenu,
   DropdownMenuContent,
