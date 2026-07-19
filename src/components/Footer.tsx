@@ -16,9 +16,9 @@ const Footer = () => {
               Plataforma completa de monitoramento e cuidado para idosos, unindo tecnologia e carinho.
             </p>
             <div className="flex flex-col gap-3">
-              <a href="mailto:contato@cuidadofacil.com.br" className="flex items-center gap-2 text-gray-400 hover:text-primary transition-colors">
+              <a href="mailto:contato@cuidarei.com.br" className="flex items-center gap-2 text-gray-400 hover:text-primary transition-colors">
                 <Mail className="w-4 h-4" />
-                contato@cuidadofacil.com.br
+                contato@cuidarei.com.br
               </a>
               <a href="tel:+5515997625135" className="flex items-center gap-2 text-gray-400 hover:text-primary transition-colors">
                 <Phone className="w-4 h-4" />

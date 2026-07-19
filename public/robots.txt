@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin
 Disallow: /auth
 
-Sitemap: https://easy-care-clone.lovable.app/sitemap.xml
+Sitemap: https://cuidarei.lovable.app/sitemap.xml
