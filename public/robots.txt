@@ -2,5 +2,9 @@ User-agent: *
 Allow: /
 Disallow: /admin
 Disallow: /auth
+Disallow: /cliente
+Disallow: /cuidador
+Disallow: /care-groups
+Disallow: /empresa
 
 Sitemap: https://cuidarei.lovable.app/sitemap.xml

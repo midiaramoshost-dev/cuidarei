@@ -146,6 +146,35 @@ const TrabalheConosco = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Trabalhe Conosco | Vagas para Cuidadores em Sorocaba — Cuidarei</title>
+        <meta name="description" content="Vagas e emprego para cuidadores de idosos em Sorocaba e região. Cadastre-se na Cuidarei e receba oportunidades em home care, casa de repouso e cuidado domiciliar." />
+        <meta name="keywords" content="emprego para cuidadores, vagas cuidador de idosos Sorocaba, trabalho cuidador domiciliar, vagas home care Sorocaba, cuidadora de idosos" />
+        <link rel="canonical" href="https://cuidarei.lovable.app/trabalhe-conosco" />
+        <meta property="og:title" content="Vagas para Cuidadores em Sorocaba | Cuidarei" />
+        <meta property="og:url" content="https://cuidarei.lovable.app/trabalhe-conosco" />
+        <meta property="og:description" content="Cadastre-se como cuidador e receba oportunidades em Sorocaba e região." />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "JobPosting",
+          "title": "Cuidador(a) de Idosos — Sorocaba e Região",
+          "description": "Vagas para cuidadores de idosos em Sorocaba e região. Home care e cuidado domiciliar com plantões flexíveis.",
+          "hiringOrganization": { "@type": "Organization", "name": "Cuidarei", "sameAs": "https://cuidarei.lovable.app/" },
+          "employmentType": ["FULL_TIME", "PART_TIME", "CONTRACTOR"],
+          "jobLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Sorocaba",
+              "addressRegion": "SP",
+              "addressCountry": "BR"
+            }
+          },
+          "datePosted": new Date().toISOString().split("T")[0],
+          "validThrough": new Date(Date.now() + 1000*60*60*24*180).toISOString().split("T")[0],
+          "industry": "Cuidados com idosos / Home care"
+        })}</script>
+      </Helmet>
       <Header />
       <div className="container-custom mx-auto px-4 pt-24 pb-16">
         <div className="max-w-4xl mx-auto">
