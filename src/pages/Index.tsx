@@ -17,7 +17,8 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Cuidadores de Idosos em Sorocaba/SP | Cuidarei</title>
-        <meta name="description" content="Cuidadores de idosos, home care e casas de repouso em Sorocaba e região (SP). Plataforma com tecnologia, segurança e carinho para sua família." />
+        <meta name="description" content="Cuidadores de idosos, home care e casas de repouso em Sorocaba e região. Cuidado com idosos com tecnologia, segurança e carinho para a sua família." />
+        <meta name="keywords" content="cuidador de idosos Sorocaba, cuidado com idosos, casa de repouso Sorocaba, home care Sorocaba, cuidador domiciliar Sorocaba, cuidadora de idosos, agência de cuidadores" />
         <link rel="canonical" href="https://cuidarei.lovable.app/" />
         <meta property="og:title" content="Cuidadores de Idosos em Sorocaba/SP | Cuidarei" />
         <meta property="og:url" content="https://cuidarei.lovable.app/" />
@@ -27,9 +28,29 @@ const Index = () => {
           "@type": "FAQPage",
           "mainEntity": [
             { "@type": "Question", "name": "Vocês atendem em Sorocaba?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. Sorocaba é nossa cidade-sede, e atendemos toda a região: Votorantim, Itu, Salto, Itapetininga, São Roque, Mairinque, Boituva, Tatuí e Piedade." } },
-            { "@type": "Question", "name": "Quanto custa um cuidador de idosos em Sorocaba?", "acceptedAnswer": { "@type": "Answer", "text": "Os planos variam conforme a carga horária e o tipo de cuidado. Consulte os planos na página inicial para valores em Sorocaba e região." } },
-            { "@type": "Question", "name": "Como contratar home care em Sorocaba?", "acceptedAnswer": { "@type": "Answer", "text": "Cadastre-se na plataforma, escolha o cuidador e o plano adequado. Toda a contratação é digital, segura e com acompanhamento da família." } }
+            { "@type": "Question", "name": "Quanto custa um cuidador de idosos em Sorocaba?", "acceptedAnswer": { "@type": "Answer", "text": "Os planos variam conforme carga horária e tipo de cuidado. Consulte os planos na página inicial para valores atualizados." } },
+            { "@type": "Question", "name": "Como contratar home care em Sorocaba?", "acceptedAnswer": { "@type": "Answer", "text": "Cadastre-se na plataforma, escolha o cuidador e o plano adequado. Toda a contratação é digital, segura e com acompanhamento da família." } },
+            { "@type": "Question", "name": "Vocês indicam casas de repouso em Sorocaba?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. Trabalhamos com instituições parceiras em Sorocaba e região para famílias que buscam residência de longa permanência." } },
+            { "@type": "Question", "name": "Como me candidatar a vagas de cuidador?", "acceptedAnswer": { "@type": "Answer", "text": "Acesse a página Trabalhe Conosco para se cadastrar como cuidador e receber oportunidades em Sorocaba e região." } }
           ]
+        })}</script>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "serviceType": "Cuidador de idosos e home care",
+          "provider": { "@type": "LocalBusiness", "name": "Cuidarei", "@id": "https://cuidarei.lovable.app/#business" },
+          "areaServed": [
+            { "@type": "City", "name": "Sorocaba" },
+            { "@type": "City", "name": "Votorantim" },
+            { "@type": "City", "name": "Itu" },
+            { "@type": "City", "name": "Salto" },
+            { "@type": "City", "name": "Itapetininga" },
+            { "@type": "City", "name": "São Roque" },
+            { "@type": "City", "name": "Mairinque" },
+            { "@type": "City", "name": "Boituva" },
+            { "@type": "City", "name": "Tatuí" }
+          ],
+          "audience": { "@type": "PeopleAudience", "suggestedMinAge": 60 }
         })}</script>
       </Helmet>
       <Header />
