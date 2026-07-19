@@ -66,19 +66,33 @@ export function AdminCaregivers() {
       if (error) throw error;
 
       const ids = (cgs || []).map((c) => c.id);
-      const { data: profiles } = await supabase.from("profiles").select("id, full_name, phone, address").in("id", ids);
-      const { data: subs } = await supabase.from("subscriptions").select("user_id, plan_id, status, billing_period").in("user_id", ids);
+      let profiles: any[] = [];
+      let subs: any[] = [];
+      if (ids.length > 0) {
+        const [pRes, sRes] = await Promise.all([
+          supabase.from("profiles").select("id, full_name, phone, address").in("id", ids),
+          supabase.from("subscriptions").select("user_id, plan_id, status, billing_period").in("user_id", ids),
+        ]);
+        if (pRes.error) console.warn("profiles fetch error:", pRes.error);
+        if (sRes.error) console.warn("subscriptions fetch error:", sRes.error);
+        profiles = pRes.data || [];
+        subs = sRes.data || [];
+      }
 
       const mapped: CaregiverRow[] = (cgs || []).map((c) => ({
         ...c,
         resume_url: (c as any).resume_url || null,
-        profile: profiles?.find((p) => p.id === c.id) || undefined,
-        subscription: subs?.find((s) => s.user_id === c.id) || null,
+        profile: profiles.find((p) => p.id === c.id) || undefined,
+        subscription: subs.find((s) => s.user_id === c.id) || null,
       }));
       setCaregivers(mapped);
-    } catch (error) {
+    } catch (error: any) {
       console.error("Error fetching caregivers:", error);
-      toast({ variant: "destructive", title: "Erro ao carregar cuidadores" });
+      toast({
+        variant: "destructive",
+        title: "Erro ao carregar cuidadores",
+        description: error?.message || error?.details || "Verifique se você está logado como admin.",
+      });
     } finally {
       setLoading(false);
     }
