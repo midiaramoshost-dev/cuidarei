@@ -160,7 +160,7 @@ const TrabalheConosco = () => {
               Seja um <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">parceiro</span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Empresas de produtos e serviços para a terceira idade podem cadastrar seu catálogo e fazer parte da rede CuidadoFácil.
+              Empresas de produtos e serviços para a terceira idade podem cadastrar seu catálogo e fazer parte da rede Cuidarei.
             </p>
           </div>
 

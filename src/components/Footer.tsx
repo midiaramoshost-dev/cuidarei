@@ -9,17 +9,16 @@ const Footer = () => {
       <div className="container-custom mx-auto px-4 md:px-8 py-16 relative z-10">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
-            <h3 className="text-2xl mb-4 flex items-baseline gap-0.5">
-              <span className="font-black tracking-tight bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Cuidado</span>
-              <span className="font-light tracking-widest text-gray-300">Fácil</span>
+            <h3 className="text-2xl mb-4 flex items-baseline">
+              <span className="font-black tracking-tight bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Cuidarei</span>
             </h3>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Plataforma completa de monitoramento e cuidado para idosos, unindo tecnologia e carinho.
             </p>
             <div className="flex flex-col gap-3">
-              <a href="mailto:contato@cuidadofacil.com.br" className="flex items-center gap-2 text-gray-400 hover:text-primary transition-colors">
+              <a href="mailto:contato@cuidarei.com.br" className="flex items-center gap-2 text-gray-400 hover:text-primary transition-colors">
                 <Mail className="w-4 h-4" />
-                contato@cuidadofacil.com.br
+                contato@cuidarei.com.br
               </a>
               <a href="tel:+5515997625135" className="flex items-center gap-2 text-gray-400 hover:text-primary transition-colors">
                 <Phone className="w-4 h-4" />
@@ -61,7 +60,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-400">
-            © 2024 CuidadoFácil. Todos os direitos reservados.
+            © 2024 Cuidarei. Todos os direitos reservados.
           </p>
           <p className="text-sm text-gray-400 flex items-center gap-1">
             Feito com <Heart className="w-4 h-4 text-destructive fill-destructive" /> no Brasil

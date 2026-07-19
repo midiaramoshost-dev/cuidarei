@@ -6,14 +6,14 @@ const testimonials = [
     name: "Dr. Carlos Mendes",
     role: "Geriatra - CRM 12345",
     avatar: "CM",
-    content: "O CuidadoFácil revolucionou a forma como acompanho meus pacientes. Os relatórios detalhados e alertas em tempo real me permitem oferecer um cuidado muito mais personalizado e eficiente.",
+    content: "O Cuidarei revolucionou a forma como acompanho meus pacientes. Os relatórios detalhados e alertas em tempo real me permitem oferecer um cuidado muito mais personalizado e eficiente.",
     rating: 5,
   },
   {
     name: "Ana Beatriz Santos",
     role: "Filha e Administradora",
     avatar: "AB",
-    content: "Desde que começamos a usar o CuidadoFácil, a tranquilidade da nossa família aumentou enormemente. Saber que minha mãe está sendo bem cuidada, mesmo à distância, não tem preço.",
+    content: "Desde que começamos a usar o Cuidarei, a tranquilidade da nossa família aumentou enormemente. Saber que minha mãe está sendo bem cuidada, mesmo à distância, não tem preço.",
     rating: 5,
   },
   {
@@ -40,7 +40,7 @@ const NewTestimonialsSection = () => {
             Depoimentos
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Avaliações e Depoimentos de Clientes CuidadoFácil
+            Avaliações e Depoimentos de Clientes Cuidarei
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Depoimentos reais de profissionais e famílias que transformaram o cuidado

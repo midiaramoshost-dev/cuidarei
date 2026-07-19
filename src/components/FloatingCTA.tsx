@@ -12,7 +12,7 @@ const contactOptions = [
   {
     icon: Mail,
     label: "Email",
-    href: "mailto:contato@cuidadofacil.com",
+    href: "mailto:contato@cuidarei.com",
     bg: "bg-accent",
   },
   {

@@ -77,7 +77,7 @@ const ComecarAgora = () => {
       <main className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold mb-4">Junte-se à família CuidadoFácil</h2>
+            <h2 className="text-3xl font-bold mb-4">Junte-se à família Cuidarei</h2>
             <p className="text-muted-foreground text-lg">
               Escolha como você quer fazer parte da nossa comunidade
             </p>
