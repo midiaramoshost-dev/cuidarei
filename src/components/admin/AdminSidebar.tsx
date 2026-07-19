@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/sidebar";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { BrandMark } from "@/components/BrandLogo";
 
 const menuItems = [
   { title: "Dashboard", url: "/admin", icon: LayoutDashboard },
