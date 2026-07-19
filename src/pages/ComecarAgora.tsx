@@ -8,6 +8,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
+import { Helmet } from "react-helmet-async";
 
 const ComecarAgora = () => {
   const [tipoSelecionado, setTipoSelecionado] = useState<"cliente" | "cuidador" | null>(null);

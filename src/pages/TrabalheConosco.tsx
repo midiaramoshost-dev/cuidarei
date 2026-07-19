@@ -11,6 +11,7 @@ import { ArrowLeft, Plus, Trash2, Upload, Briefcase, Package, CheckCircle2 } fro
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
 import Header from "@/components/Header";
+import { Helmet } from "react-helmet-async";
 
 type Item = { name: string; description: string; price: string; category: string };
 
