@@ -186,7 +186,7 @@ const DonationSection = () => {
                     <p className="font-bold text-primary">R$ {finalAmount?.toFixed(2)}</p>
                   </div>
                   <p className="text-xs text-muted-foreground">
-                    Após o pagamento, envie o comprovante para <strong>doacoes@cuidadofacil.com.br</strong>
+                    Após o pagamento, envie o comprovante para <strong>doacoes@cuidarei.com.br</strong>
                   </p>
                 </div>
               ) : (

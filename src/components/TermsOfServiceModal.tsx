@@ -198,7 +198,7 @@ const TermsOfServiceModal = ({ open, onClose, onAccept, planName }: TermsOfServi
             <section>
               <h3 className="font-semibold text-base mb-2">11. Contato com o Encarregado (DPO)</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Para exercer seus direitos como titular de dados ou esclarecer dúvidas sobre este Termo, entre em contato com nosso Encarregado de Proteção de Dados (DPO) pelo e-mail: <strong>privacidade@cuidadofacil.com.br</strong>
+                Para exercer seus direitos como titular de dados ou esclarecer dúvidas sobre este Termo, entre em contato com nosso Encarregado de Proteção de Dados (DPO) pelo e-mail: <strong>privacidade@cuidarei.com.br</strong>
               </p>
             </section>
 

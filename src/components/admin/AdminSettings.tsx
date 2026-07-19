@@ -27,7 +27,7 @@ export function AdminSettings() {
     sessionTimeout: "30",
     // Geral
     siteName: "Cuidarei",
-    supportEmail: "suporte@cuidadofacil.com.br",
+    supportEmail: "suporte@cuidarei.com.br",
     welcomeMessage: "Bem-vindo ao Cuidarei! Estamos aqui para ajudar.",
   });
 
