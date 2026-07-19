@@ -62,13 +62,49 @@ const App = () => (
               <Route path="parceiros" element={<AdminPartners />} />
               <Route path="configuracoes" element={<AdminSettings />} />
             </Route>
-            <Route path="/cuidador" element={<AreaCuidador />} />
-            <Route path="/cliente" element={<AreaCliente />} />
+            <Route
+              path="/cuidador"
+              element={
+                <ProtectedRoute requiredRole="cuidador">
+                  <AreaCuidador />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/cliente"
+              element={
+                <ProtectedRoute requiredRole="cliente">
+                  <AreaCliente />
+                </ProtectedRoute>
+              }
+            />
             <Route path="/comecar" element={<ComecarAgora />} />
             <Route path="/trabalhe-conosco" element={<TrabalheConosco />} />
-            <Route path="/care-groups" element={<CareGroupsPage />} />
-            <Route path="/care-groups/:id" element={<CareGroupDetailPage />} />
-            <Route path="/empresa" element={<CompanyDashboard />} />
+            <Route
+              path="/care-groups"
+              element={
+                <ProtectedRoute>
+                  <CareGroupsPage />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/care-groups/:id"
+              element={
+                <ProtectedRoute>
+                  <CareGroupDetailPage />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/empresa"
+              element={
+                <ProtectedRoute>
+                  <CompanyDashboard />
+                </ProtectedRoute>
+              }
+            />
+
             <Route path="*" element={<NotFound />} />
           </Routes>
         </AuthProvider>
