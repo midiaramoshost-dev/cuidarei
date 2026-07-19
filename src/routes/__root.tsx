@@ -91,6 +91,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Cuidarei | Gestão de cuidados" },
+      { name: "twitter:description", content: "Cuidarei ajuda equipes a organizar rotinas, pacientes e acompanhamento de cuidados." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4d370e77-aa48-482d-8800-f0aa08a86333/id-preview-4d938191--ac86adb0-00c6-45a5-87e3-151fe8644cc7.lovable.app-1784421166010.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4d370e77-aa48-482d-8800-f0aa08a86333/id-preview-4d938191--ac86adb0-00c6-45a5-87e3-151fe8644cc7.lovable.app-1784421166010.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
