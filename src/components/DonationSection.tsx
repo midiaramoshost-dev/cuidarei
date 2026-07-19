@@ -181,7 +181,7 @@ const DonationSection = () => {
                     <p className="text-xs text-muted-foreground mb-1">Chave PIX (CNPJ)</p>
                     <p className="font-mono font-semibold text-foreground text-sm">00.000.000/0001-00</p>
                     <p className="text-xs text-muted-foreground mt-2 mb-1">Favorecido</p>
-                    <p className="font-semibold text-sm text-foreground">CuidadoFácil — Asilos de Sorocaba</p>
+                    <p className="font-semibold text-sm text-foreground">Cuidarei — Asilos de Sorocaba</p>
                     <p className="text-xs text-muted-foreground mt-2 mb-1">Valor</p>
                     <p className="font-bold text-primary">R$ {finalAmount?.toFixed(2)}</p>
                   </div>
@@ -244,7 +244,7 @@ const DonationSection = () => {
                     "Cada gesto de carinho transforma a vida dos nossos idosos. 
                     Obrigado por fazer parte dessa corrente do bem."
                   </p>
-                  <p className="text-xs text-primary font-medium mt-3">— Equipe CuidadoFácil</p>
+                  <p className="text-xs text-primary font-medium mt-3">— Equipe Cuidarei</p>
                 </div>
               </div>
 

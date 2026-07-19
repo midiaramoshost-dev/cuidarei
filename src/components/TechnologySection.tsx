@@ -60,7 +60,7 @@ const TechnologySection = () => {
             <div className="rounded-3xl overflow-hidden shadow-lg">
               <img
                 src={technologyCare}
-                alt="Dashboard do aplicativo CuidadoFácil"
+                alt="Dashboard do aplicativo Cuidarei"
                 className="w-full h-[450px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent" />

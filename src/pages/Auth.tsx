@@ -123,7 +123,7 @@ const Auth = () => {
             <div className="w-10 h-10 rounded-xl bg-white/20 backdrop-blur flex items-center justify-center">
               <span className="font-bold text-lg">CF</span>
             </div>
-            <span className="text-2xl font-bold">CuidadoFácil</span>
+            <span className="text-2xl font-bold">Cuidarei</span>
           </Link>
 
           <div className="space-y-8">
@@ -168,7 +168,7 @@ const Auth = () => {
           </div>
 
           <p className="text-xs text-primary-foreground/50">
-            © {new Date().getFullYear()} CuidadoFácil. Todos os direitos reservados.
+            © {new Date().getFullYear()} Cuidarei. Todos os direitos reservados.
           </p>
         </div>
       </div>
@@ -179,7 +179,7 @@ const Auth = () => {
         <div className="lg:hidden flex items-center justify-between p-4 border-b border-border">
           <Link to="/" className="flex items-center gap-2">
             <span className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              CuidadoFácil
+              Cuidarei
             </span>
           </Link>
         </div>

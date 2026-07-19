@@ -16,10 +16,10 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Cuidadores de Idosos em Sorocaba/SP | CuidadoFácil</title>
+        <title>Cuidadores de Idosos em Sorocaba/SP | Cuidarei</title>
         <meta name="description" content="Cuidadores de idosos, home care e casas de repouso em Sorocaba e região (SP). Plataforma com tecnologia, segurança e carinho para sua família." />
         <link rel="canonical" href="https://easy-care-clone.lovable.app/" />
-        <meta property="og:title" content="Cuidadores de Idosos em Sorocaba/SP | CuidadoFácil" />
+        <meta property="og:title" content="Cuidadores de Idosos em Sorocaba/SP | Cuidarei" />
         <meta property="og:url" content="https://easy-care-clone.lovable.app/" />
         <meta property="og:description" content="Cuidadores, home care e casas de repouso em Sorocaba e região. Tecnologia, segurança e carinho." />
         <script type="application/ld+json">{JSON.stringify({

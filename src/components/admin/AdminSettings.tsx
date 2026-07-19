@@ -26,9 +26,9 @@ export function AdminSettings() {
     twoFactorAuth: false,
     sessionTimeout: "30",
     // Geral
-    siteName: "CuidadoFácil",
+    siteName: "Cuidarei",
     supportEmail: "suporte@cuidadofacil.com.br",
-    welcomeMessage: "Bem-vindo ao CuidadoFácil! Estamos aqui para ajudar.",
+    welcomeMessage: "Bem-vindo ao Cuidarei! Estamos aqui para ajudar.",
   });
 
   const handleSave = () => {

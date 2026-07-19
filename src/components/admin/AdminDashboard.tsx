@@ -128,7 +128,7 @@ export function AdminDashboard() {
     <div className="space-y-6">
       <div>
         <h2 className="text-2xl font-bold tracking-tight">Dashboard</h2>
-        <p className="text-muted-foreground">Visão geral do sistema CuidadoFácil</p>
+        <p className="text-muted-foreground">Visão geral do sistema Cuidarei</p>
       </div>
 
       {/* General KPIs */}

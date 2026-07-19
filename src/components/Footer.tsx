@@ -61,7 +61,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-400">
-            © 2024 CuidadoFácil. Todos os direitos reservados.
+            © 2024 Cuidarei. Todos os direitos reservados.
           </p>
           <p className="text-sm text-gray-400 flex items-center gap-1">
             Feito com <Heart className="w-4 h-4 text-destructive fill-destructive" /> no Brasil
