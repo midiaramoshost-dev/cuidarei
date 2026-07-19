@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/sidebar";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { BrandMark } from "@/components/BrandLogo";
 
 const menuItems = [
   { title: "Dashboard", url: "/admin", icon: LayoutDashboard },
@@ -46,14 +47,12 @@ export function AdminSidebar() {
   return (
     <Sidebar collapsible="icon" className="border-r border-border">
       <SidebarHeader className="border-b border-border p-4">
-        <div className={cn("flex items-center gap-2", collapsed && "justify-center")}>
-          <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-sm">CF</span>
-          </div>
+        <div className={cn("flex items-center gap-2.5", collapsed && "justify-center")}>
+          <BrandMark />
           {!collapsed && (
-            <div className="flex flex-col">
-              <span className="font-semibold text-sm">Cuidarei</span>
-              <span className="text-xs text-muted-foreground">Admin</span>
+            <div className="flex flex-col leading-tight">
+              <span className="font-semibold text-sm tracking-tight" style={{ letterSpacing: "-0.02em" }}>Cuidarei</span>
+              <span className="text-[11px] text-muted-foreground uppercase tracking-wider">Admin</span>
             </div>
           )}
         </div>

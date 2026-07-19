@@ -1,5 +1,6 @@
 import { Heart, Mail, Phone, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
+import { BrandLogo } from "@/components/BrandLogo";
 
 const Footer = () => {
   return (
@@ -9,9 +10,9 @@ const Footer = () => {
       <div className="container-custom mx-auto px-4 md:px-8 py-16 relative z-10">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
-            <h3 className="text-2xl mb-4 flex items-baseline">
-              <span className="font-black tracking-tight bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Cuidarei</span>
-            </h3>
+            <div className="mb-4">
+              <BrandLogo variant="light" wordmarkClassName="text-white text-xl" />
+            </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Plataforma completa de monitoramento e cuidado para idosos, unindo tecnologia e carinho.
             </p>
