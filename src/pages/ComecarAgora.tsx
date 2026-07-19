@@ -63,6 +63,15 @@ const ComecarAgora = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Começar Agora | Contratar Cuidador de Idosos em Sorocaba — Cuidarei</title>
+        <meta name="description" content="Contrate um cuidador de idosos em Sorocaba e região. Cadastro rápido para famílias e cuidadores. Home care com segurança, tecnologia e atendimento 24h." />
+        <meta name="keywords" content="contratar cuidador de idosos Sorocaba, home care Sorocaba, cuidador domiciliar, agência de cuidadores, cuidado com idosos" />
+        <link rel="canonical" href="https://cuidarei.lovable.app/comecar" />
+        <meta property="og:title" content="Começar Agora | Cuidarei — Sorocaba e região" />
+        <meta property="og:url" content="https://cuidarei.lovable.app/comecar" />
+        <meta property="og:description" content="Cadastro rápido para contratar cuidador ou trabalhar como cuidador em Sorocaba e região." />
+      </Helmet>
       <header className="bg-card border-b border-border">
         <div className="container mx-auto px-4 py-4 flex items-center">
           <Link to="/">
