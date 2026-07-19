@@ -108,7 +108,7 @@ export function CaregiverProfileTab() {
               <div>
                 <h3 className="font-semibold text-lg">{caregiver.specialty || "Cuidador"}</h3>
                 <div className="flex items-center gap-3 text-sm text-muted-foreground">
-                  {caregiver.experience_years > 0 && (
+                  {(caregiver.experience_years ?? 0) > 0 && (
                     <span className="flex items-center gap-1"><Award className="w-3.5 h-3.5" /> {caregiver.experience_years} anos exp.</span>
                   )}
                   {caregiver.active && <Badge variant="default" className="text-xs">Ativo</Badge>}
